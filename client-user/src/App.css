@@ -1,0 +1,290 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mx-auto {
+  margin-top: 10rem;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#containerSide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+
+}
+
+#home {
+  text-decoration: none;
+}
+
+#mainConatiner {
+  width: 400px;
+  height: 750px;
+  background-size: cover;
+  background-position: -44px -10px;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 10px 0px 20px 60px;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+#mainConatiner:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+#description {
+  height: 300px;
+  background-color: white;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+#logo {
+  width: 40px;
+  padding: 7px;
+  margin-left: 20px;
+}
+
+#title {
+  height: 110px;
+}
+
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#info {
+  height: 160px;
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 15px;
+  color: #717a7a;
+}
+
+#title>h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  color: #2c3e50;
+  padding-right: 12px;
+  font-size: 36px;
+}
+
+ul#menu li {
+  display: inline;
+  color: #d35400;
+  font-weight: bolder;
+}
+
+#buttons {
+  height: 70px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  /*   align-items:center; */
+}
+
+#buttons>div {
+  width: 100%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f39c12;
+}
+
+#titles {
+  padding: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+#link {
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  z-index: 10;
+}
+
+#link:hover {
+  color: rgb(255, 255, 255);
+}
+
+#rate {
+  position: absolute;
+  margin-left: 12px;
+  background-color: #f39c12;
+  border-radius: 90%;
+  padding: 12px;
+}
+
+.box1 {
+  margin-top: 18rem;
+  margin-bottom: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  box-shadow: 8px 8px 15px black;
+
+}
+
+.box-image {
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  margin: 0rem 30rem 15rem 0rem;
+  width: 100vh;
+}
+
+.detail {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px black;
+  object-fit: cover;
+}
+
+.box-body {
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 36rem;
+  height: 20rem;
+  width: 40rem;
+}
+
+iframe {
+  width: 70rem;
+  height: 35rem;
+}
+
+#rowDetail {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#imgCast {
+  width: 260px;
+  height: 300px;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.home-section {
+  background: #e2e2e2;
+  margin-top: 14rem;
+  text-shadow: 5px 5px 9px rgb(0, 0, 0);
+}
+
+.photo {
+  width: 40rem;
+  height: 35rem;
+  border-radius: 40px;
+  object-fit: cover;
+  box-shadow: 5px 5px 9px rgb(0, 0, 0);
+}
+
+.margin-top-150 {
+  margin-top: 150px !important;
+}
+
+.table {
+  margin-bottom: 0px;
+}
+
+.table a {
+  color: #ffffff;
+}
+
+.table>tbody>tr>td {
+  padding: 15px;
+  border: 3px solid #e4e4e4;
+}
+
+.table tr>td {
+  padding: 11px 13px;
+}
+
+tr>td:nth-child(2) {
+  font-weight: 500;
+  color: #ffffff;
+  background: #4c9cef;
+}
+
+tr:nth-child(1)>td {
+  border-top: 0px;
+}
+
+tr>td:nth-child(1) {
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  color: #888888;
+  width: 140px;
+}
